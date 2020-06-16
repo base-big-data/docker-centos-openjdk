@@ -1,0 +1,2 @@
+# docker-base
+centos-openjdk
