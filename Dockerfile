@@ -17,7 +17,8 @@ RUN yum install -y wget;\
 RUN yum update -y; \
   yum intall -y deltarpm;\
   yum install -y java-1.8.0-openjdk-devel unzip curl vim python-setuptools sudo; \
-  yum clean all
+  yum clean all;\
+  yum makecache
 
 
 CMD ["/bin/bash"]
